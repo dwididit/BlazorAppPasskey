@@ -37,17 +37,8 @@ Passkeys are a **phishing-resistant** replacement for passwords. They use public
 ### Installation
 
 ```bash
-# Clone the repository
 git clone https://github.com/dwididit/BlazorAppPasskey.git
-
-# Navigate to the project directory
-cd BlazorAppPasskey
-
-# Navigate to the application folder
-cd BlazorAppPasskey
-
-# Restore dependencies and run
-dotnet restore
+cd BlazorAppPasskey/BlazorAppPasskey
 dotnet run
 ```
 
