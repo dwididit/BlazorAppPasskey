@@ -242,12 +242,6 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 - UI components from [Bootstrap](https://getbootstrap.com/)
 - Inspired by the [WebAuthn community](https://webauthn.io/)
 
-## 📞 Support
-
-- 📧 Email: your.email@example.com
-- 🐛 Issues: [GitHub Issues](https://github.com/yourusername/BlazorAppPasskey/issues)
-- 💬 Discussions: [GitHub Discussions](https://github.com/yourusername/BlazorAppPasskey/discussions)
-
 ## ⭐ Show your support
 
 Give a ⭐️ if this project helped you learn about Passkeys and WebAuthn!
