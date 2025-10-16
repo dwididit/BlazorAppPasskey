@@ -26,14 +26,6 @@ Passkeys are a **phishing-resistant** replacement for passwords. They use public
 - ✅ **Privacy-Focused** - Private keys never leave your device
 - ✅ **Cross-Device Sync** - Via iCloud Keychain or Google Password Manager
 
-## 🖼️ Screenshots
-
-### Login Page
-![Login Page](https://via.placeholder.com/800x500/667eea/ffffff?text=Modern+Login+Page+with+Passkey+Support)
-
-### Passkey Registration Flow
-![Passkey Registration](https://via.placeholder.com/800x500/764ba2/ffffff?text=Touch+ID+%2F+Face+ID+Prompt)
-
 ## 🚀 Quick Start
 
 ### Prerequisites
@@ -46,16 +38,16 @@ Passkeys are a **phishing-resistant** replacement for passwords. They use public
 
 ```bash
 # Clone the repository
-git clone https://github.com/yourusername/BlazorAppPasskey.git
+git clone https://github.com/dwididit/BlazorAppPasskey.git
 
 # Navigate to the project directory
 cd BlazorAppPasskey
 
-# Restore dependencies
-dotnet restore
-
-# Run the application
+# Navigate to the application folder
 cd BlazorAppPasskey
+
+# Restore dependencies and run
+dotnet restore
 dotnet run
 ```
 
@@ -63,10 +55,13 @@ dotnet run
 
 Open your browser and navigate to:
 ```
-https://localhost:5001
+http://localhost:5000
 ```
 
-**⚠️ Important:** HTTPS is required for WebAuthn to work.
+**⚠️ Important:** For Passkey/WebAuthn features to work properly, use HTTPS:
+```
+https://localhost:5001
+```
 
 ## 📋 How to Use
 
@@ -196,23 +191,23 @@ Located in `wwwroot/js/passkey.js`:
 This is a **demonstration application**. For production use, implement:
 
 ### Backend Integration
-- [ ] Server-side challenge generation
-- [ ] Public key storage in database
-- [ ] Signature verification on server
-- [ ] User account management
-- [ ] Session management with JWT/cookies
+- Server-side challenge generation
+- Public key storage in database
+- Signature verification on server
+- User account management
+- Session management with JWT/cookies
 
 ### Security Enhancements
-- [ ] CSRF protection
-- [ ] Rate limiting on auth endpoints
-- [ ] Proper error handling and logging
-- [ ] Audit trail for authentication events
+- CSRF protection
+- Rate limiting on auth endpoints
+- Proper error handling and logging
+- Audit trail for authentication events
 
 ### User Experience
-- [ ] Account recovery mechanisms
-- [ ] Multiple passkey support per user
-- [ ] Passkey management UI (list, delete)
-- [ ] Fallback authentication methods
+- Account recovery mechanisms
+- Multiple passkey support per user
+- Passkey management UI (list, delete)
+- Fallback authentication methods
 
 ## 📚 Resources
 
